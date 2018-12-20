@@ -1,8 +1,6 @@
 package unico;
-
 import java.util.Arrays;
 import java.util.Random;
-
 public class TablaInsercion {
 Integer matriz[];
 Random r = new Random();
@@ -17,12 +15,7 @@ public TablaInsercion(int dim) {
 public String toString() {
 	return "Tabla [matriz=" + Arrays.toString(matriz) + "]";
 }
-
 	public void ordenarInsercion() {
-
-   
- 
-	
 	        final int N = matriz.length;
 	        for(int i=1; i<N; i++) {
 	        int j=i;
@@ -31,12 +24,5 @@ public String toString() {
 	                matriz[j]    = matriz[j-1];
 	                matriz[j-1]  = tmp;
 	                j--;
-	            }
-	        }
-	    }
- 
- 
-}
- 
-
-
+	            }}}
+} 
