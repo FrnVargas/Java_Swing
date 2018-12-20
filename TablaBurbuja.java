@@ -1,10 +1,8 @@
 package unico;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-
 public class TablaBurbuja {
 	/*
 	 * /* leer una matriz de 10 enteros y los ordene por el método de la Burbuja de
@@ -25,7 +23,6 @@ public class TablaBurbuja {
 			matriz[pos] = r.nextInt(10);
 		}
 	}
-
 	@Override
 	public String toString() {
 		return "Tabla [matriz=" + Arrays.toString(matriz) + "]";
