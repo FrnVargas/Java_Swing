@@ -1,8 +1,6 @@
 package unico;
-
 import java.util.Arrays;
 import java.util.Random;
-
 public class TablaSeleccion {
 Double matriz[];
 Random r = new Random();
@@ -17,8 +15,6 @@ public TablaSeleccion(int dim) {
 public String toString() {
 	return "Tabla [matriz=" + Arrays.toString(matriz) + "]";
 }
-
-
 	public void ordenarSeleccion() {
 		for (int i =0;i<=matriz.length-1;i++) {
 			int posMenor=i;
@@ -33,6 +29,4 @@ public String toString() {
 	            }
 	
 			            }
-				}}}				
-	
-	  
+				}}}		  
