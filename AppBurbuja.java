@@ -1,17 +1,12 @@
 package unico;
-
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
-
 public class AppBurbuja {
-
 	private JFrame frmOrdenarPorEl;
-
 	/**
 	 * Launch the application.
 	 */
@@ -34,7 +29,6 @@ public class AppBurbuja {
 	public AppBurbuja() {
 		initialize();
 	}
-
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -44,13 +38,11 @@ public class AppBurbuja {
 		frmOrdenarPorEl.setBounds(100, 100, 450, 300);
 		frmOrdenarPorEl.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmOrdenarPorEl.getContentPane().setLayout(null);
-		
 		JTextArea ta = new JTextArea();
 		ta.setLineWrap(true);
 		ta.setEditable(false);
 		ta.setBounds(56, 35, 306, 149);
 		frmOrdenarPorEl.getContentPane().add(ta);
-		
 		JButton btnNewButton = new JButton("Aceptar");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
