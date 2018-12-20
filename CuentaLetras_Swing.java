@@ -1,18 +1,13 @@
 package unico;
-
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
 public class CuentaLetras_Swing {
-
 	private JFrame frmCuentaLetras;
-
 	/**
 	 * Launch the application.
 	 */
@@ -28,14 +23,12 @@ public class CuentaLetras_Swing {
 			}
 		});
 	}
-
 	/**
 	 * Create the application.
 	 */
 	public CuentaLetras_Swing() {
 		initialize();
 	}
-
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -72,7 +65,6 @@ public class CuentaLetras_Swing {
 						}
 					}
 				
-			
 		});
 		btnIniciar.setBounds(324, 228, 91, 23);
 		frmCuentaLetras.getContentPane().add(btnIniciar);
@@ -85,8 +77,5 @@ public class CuentaLetras_Swing {
 		});
 		btnCancelar.setBounds(31, 228, 91, 23);
 		frmCuentaLetras.getContentPane().add(btnCancelar);
-		
-	
 	}
-
 }
