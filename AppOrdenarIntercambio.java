@@ -1,17 +1,12 @@
 package unico;
-
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
 public class AppOrdenarIntercambio {
-
 	private JFrame frmMetodoOrdenarPor;
-
 	/**
 	 * Launch the application.
 	 */
@@ -34,7 +29,6 @@ public class AppOrdenarIntercambio {
 	public AppOrdenarIntercambio() {
 		initialize();
 	}
-
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -69,7 +63,5 @@ public class AppOrdenarIntercambio {
 		});
 		btnCancelar.setBounds(49, 215, 91, 23);
 		frmMetodoOrdenarPor.getContentPane().add(btnCancelar);
-		
-
 	}
 }
