@@ -1,5 +1,4 @@
 package unico;
-
 import java.awt.Button;
 import java.awt.Frame;
 import java.awt.Label;
@@ -8,9 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-
 public class Descuentos {
-
 	public static void main(String[] args) {
 		/*
 		 * Descuentos-Realizar un programa en JAVA que calcule los descuentos a aplicar
