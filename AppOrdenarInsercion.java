@@ -1,17 +1,12 @@
 package unico;
-
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextArea;
-
 public class AppOrdenarInsercion {
-
 	private JFrame frame;
-
 	/**
 	 * Launch the application.
 	 */
@@ -27,14 +22,12 @@ public class AppOrdenarInsercion {
 			}
 		});
 	}
-
 	/**
 	 * Create the application.
 	 */
 	public AppOrdenarInsercion() {
 		initialize();
 	}
-
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -43,7 +36,6 @@ public class AppOrdenarInsercion {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-		
 		JTextArea ta = new JTextArea();
 		ta.setEditable(false);
 		ta.setBounds(42, 11, 338, 165);
@@ -56,8 +48,6 @@ public class AppOrdenarInsercion {
 				test.ordenarInsercion();
 				ta.insert("\n",0);
 				ta.insert("Ordenado: "+ test.toString(),0);
-				
-				
 			}
 		});
 		btnAceptar.setBounds(298, 204, 91, 23);
@@ -66,7 +56,5 @@ public class AppOrdenarInsercion {
 		JButton btnCancelar = new JButton("Cancelar");
 		btnCancelar.setBounds(61, 204, 91, 23);
 		frame.getContentPane().add(btnCancelar);
-		
-
 	}
 }
