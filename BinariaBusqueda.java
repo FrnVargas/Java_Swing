@@ -11,5 +11,4 @@ int num =  Integer.parseInt(JOptionPane.showInputDialog("Introduzca el numero qu
 JOptionPane.showMessageDialog(null,"Matriz ordenada:  "+ test);
 JOptionPane.showMessageDialog(null, " Posicion:  " + test.buscar(test.matriz, num));
 	}
-
 }
